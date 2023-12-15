@@ -1,0 +1,75 @@
+.signup-wrapper {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-header {
+  flex: 3;
+  background-color: lightblue;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+.form-header > p {
+  margin-top: 150px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: GidolinyaRegular;
+}
+
+.form-section {
+  flex: 2.5;
+  background-color: white;
+}
+
+.form-section > form {
+  display: flex;
+  padding-left: 30px;
+  padding-top: 50px;
+  gap: 60px;
+}
+
+.left-row {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right-row {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, label {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 11px;
+  font-family: GidolinyaRegular;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 7px;
+  height: 25px;
+  width: 200px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #32CD32;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+input:invalid {
+  border: 2px solid #FF7F7F;
+}
+
+.form-footer {
+  flex: 3;
+  background-color: lightblue;
+}
