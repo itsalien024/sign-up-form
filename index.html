@@ -44,7 +44,8 @@
             </div>
             <div class="user-password">
               <label for="password">PASSWORD</label>
-              <input type="password" id="password" minlength="5" maxlength="15" required>
+              <input type="password" id="password" minlength="5" maxlength="15" required onkeyup="check()">
+              <span id="password-mismatch"></span>
             </div>
           </div>
 
@@ -59,7 +60,7 @@
             </div>
             <div class="confirm-password">
               <label for="password">CONFIRM PASSWORD</label>
-              <input type="password" id="confirmPassword" minlength="5" maxlength="15" required>
+              <input type="password" id="confirmPassword" minlength="5" maxlength="15" required onkeyup="check()">
             </div>
           </div>
         </form>

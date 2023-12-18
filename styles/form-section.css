@@ -44,6 +44,12 @@
   gap: 15px;
 }
 
+#password-mismatch {
+  height: 10px;
+  width: 200px;
+  font-size: 15px;
+}
+
 .right-row {
   display: flex;
   flex-direction: column;
